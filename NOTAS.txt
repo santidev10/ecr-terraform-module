@@ -1,5 +1,3 @@
-usa for_each y crea policies.  uso tfvars y usa SET para name y string para princ)
-
 ESTE USA MAP y funciona!!
 La clave es escapear las comillas en el map del terraform.tfvars:
 
