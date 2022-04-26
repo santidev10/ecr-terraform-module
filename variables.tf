@@ -1,4 +1,4 @@
 variable "repos" {
   description = "Map of repos/principals"
-  type = map(string) 
+  type = map(list(string)) 
 }

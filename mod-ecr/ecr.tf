@@ -14,7 +14,7 @@ resource "aws_ecr_repository_policy" "ecr_policy" {
               "Sid": "new statement",
               "Effect": "Allow",
               "Principal": {
-                  "AWS": ["${each.value}"]
+                  "AWS": ${jsonencode(each.value)}
               },
               "Action": [
                   "ecr:GetDownloadUrlForLayer",

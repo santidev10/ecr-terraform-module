@@ -1,3 +1,8 @@
+Esta v11 la implemente con los cambios que propuso Carles usando jsonencode
+
+
+
+------------------------------------------------------------------------
 ESTE USA MAP y funciona!!
 La clave es escapear las comillas en el map del terraform.tfvars:
 
